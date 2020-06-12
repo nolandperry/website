@@ -1,0 +1,226 @@
+body {    
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: interstate, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:calc(32px + 2vw);
+  color: #2B2E30;
+  line-height: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 0;
+}
+
+h3 {
+  font-family: interstate, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size:calc(10px + 1vw);
+  color: #2B2E30;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-family: interstate, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:calc(35px + 1vw);
+  color: #2B2E30;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h4 {
+  font-family: interstate, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:calc(1px + 1vw);
+  color: #80925A;
+  line-height: 50px;
+}
+
+p {
+  font-family: interstate, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size:calc(14px + .5vw);
+  color: #949494;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.name {
+  padding-top: 100px;
+}
+
+.profile {
+  border-radius: 50%;
+  width: 300px;
+}
+
+.photo {
+  border-radius: 100px;
+  padding: 50px;
+  width: 425px;
+}
+
+#camera {
+  padding-left: 10px;
+}
+
+.button1 {
+  background-color: #FBEFD6;
+  border: none;
+  color: #2B2E30;
+  padding: 18px 22px;
+  text-align: center;
+  margin: 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.3s;
+  font-family: interstate, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  border-radius: 50px;
+}
+
+.button2 {
+  font-family: interstate, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 35px;
+	background: none;
+	color: #80925A;
+	border: none;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.button1:hover, .hvr-shadow:focus, .hvr-shadow:active {
+  box-shadow: 0 10px 10px -10px rgba(56, 56, 23, 0.5);
+}
+
+.bioContainer {
+  margin-left: calc(50px + 10vw);
+  margin-right: calc(50px + 10vw);
+}
+
+.leftImages, .rightImages {
+  width: 49%;
+}
+
+#walking {
+  width: 400px;
+}
+
+.icons {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 170px;
+  padding-left: 150px;
+  position: absolute;
+}
+
+#topIcon {
+  padding-bottom: 10px;
+}
+
+#middleIcon {
+  padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 1800px) {
+  .icons {
+    position: relative;
+    padding-left: 30px;
+    padding-top: 30px;
+  }
+
+  .name {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  #face-pic {
+    padding: 0px;
+  }
+  #nolan-perry {
+      flex-wrap: wrap;
+      text-align: center;
+  }
+  #bio {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .leftImages {
+    float: none;
+  }
+  .rightImages {
+    float: none;
+  }
+  .bioContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #iconContainer {
+    position: relative;
+  }
+
+  #walking {
+    width: 75%;
+    max-width: 400px;
+    padding-top: 20px;
+  }
+
+  .photo {
+    width: 60%;
+    min-width: 140px;
+    padding: 20px;
+    border-radius: calc(50px - 1vw);
+  }
+
+  .profile {
+    width: 25%;
+    min-width: 175px;
+  }
+
+  .icons {
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 0;
+    padding-top: 50px;
+  }
+
+  #topIcon {
+    padding-right: 10px;
+    padding-bottom: 0;
+  }
+
+  #middleIcon {
+    padding-right: 10px;
+    padding-bottom: 0;
+  }
+  #camera {
+    padding-left: 0;
+  }
+
+}
