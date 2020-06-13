@@ -78,6 +78,15 @@ p {
   padding-left: 10px;
 }
 
+.mail {
+  width: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 45px;
+  margin: 0 auto;
+}
+
 .button1 {
   background-color: #FBEFD6;
   border: none;
@@ -254,6 +263,11 @@ input, textarea {
     width: 75%;
     max-width: 400px;
     padding-top: 20px;
+  }
+
+  .mail {
+    width: 75%;
+    max-width: 400px;
   }
 
   .photo {
