@@ -102,8 +102,9 @@ p {
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
+  text-decoration: none;
   padding-left: 10px;
-  padding-top: 35px;
+  padding-top: px;
 	background: none;
 	color: #80925A;
 	border: none;
@@ -144,6 +145,70 @@ p {
 
 #middleIcon {
   padding-bottom: 10px;
+}
+
+
+#topBox {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.input {
+  border-bottom: 3px solid #2B2E30;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: Interstate;
+  padding: 15px;
+}
+
+#nameBox {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+#emailBox {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  width: 40%;
+  text-align: left;
+}
+
+#messageBox {
+  margin-top: 30px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  margin: 20px;
+  width: 1000px;
+}
+
+#messageField {
+  border-bottom: 3px solid #2B2E30;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  resize: none;
+  padding: 15px;
+  height: 90px;
+  font-family: Interstate;
+}
+
+input, textarea {
+  color: #80925A;
+  font-size: 20px;
+}
+
+#homeButton {
+  margin-right: 240px;
+  justify-content: right;
 }
 
 @media only screen and (max-width: 1800px) {
@@ -219,8 +284,30 @@ p {
     padding-right: 10px;
     padding-bottom: 0;
   }
+
   #camera {
     padding-left: 0;
   }
 
+  #topBox {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #emailBox {
+    width: 100%;
+  }
+
+  #nameBox {
+    width: 100%;
+  }
+
+  #homeButton {
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
 }
