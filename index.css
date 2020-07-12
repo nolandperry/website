@@ -87,7 +87,7 @@ p {
   margin: 0 auto;
 }
 
-.button1 {
+.button1, input[type=submit] {
   background-color: #FBEFD6;
   border: none;
   color: #2B2E30;
@@ -266,8 +266,7 @@ input, textarea {
   }
 
   .mail {
-    width: 75%;
-    max-width: 400px;
+    width: 400px;
   }
 
   .photo {
@@ -323,5 +322,18 @@ input, textarea {
     justify-content: center;
     align-items: center;
     margin-right: 0;
+  }
+  #messageField {
+    border: 3px solid #2B2E30;
+    resize: none;
+    padding: 15px;
+    height: 90px;
+    font-family: Interstate;
+  }
+
+  .input {
+    border: 3px solid #2B2E30;
+    font-family: Interstate;
+    padding: 15px;
   }
 }
