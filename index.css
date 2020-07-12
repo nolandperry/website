@@ -5,6 +5,10 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  width: 100%;
+}
+
 h1 {
   font-family: interstate, sans-serif;
   font-weight: 700;
@@ -79,7 +83,7 @@ p {
 }
 
 .mail {
-  width: 550px;
+  width: 525px;
   padding-top: 45px;
   margin: 0 auto;
 }
@@ -264,7 +268,7 @@ input, textarea {
   }
 
   .mail {
-    width: 400px;
+    width: 375px;
   }
 
   .photo {
