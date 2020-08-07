@@ -46,11 +46,10 @@ h2 {
 
 h4 {
   font-family: interstate, sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
-  font-size:calc(1px + 1vw);
+  font-size:calc(15px + 1vw);
   color: #80925A;
-  line-height: 50px;
 }
 
 p {
@@ -69,7 +68,7 @@ p {
 
 .profile {
   border-radius: 50%;
-  width: 300px;
+  width: 275px;
 }
 
 .photo {
@@ -237,6 +236,7 @@ input, textarea {
 @media only screen and (max-width: 1050px) {
   #face-pic {
     padding: 0px;
+    padding-top: 45px;
   }
   #nolan-perry {
       flex-wrap: wrap;
@@ -337,5 +337,11 @@ input, textarea {
     border: 3px solid #2B2E30;
     font-family: Interstate;
     padding: 15px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 30px;
   }
 }
