@@ -344,4 +344,7 @@ input, textarea {
   h4 {
     font-size: 30px;
   }
+  #collage {
+    padding-bottom: 40px;
+  }
 }
