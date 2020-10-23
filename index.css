@@ -5,6 +5,9 @@ body {
   overflow-x: hidden;
 }
 
+html {
+  overflow-x: hidden; }
+
 .square {
   height: 5px;
   width: 300px;
@@ -88,7 +91,7 @@ h2 {
   font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size:calc(30px + 1vw);
+  font-size:calc(30px + 1.5vw);
   color:#1C1C1C;
   padding-top: 45px;
   margin-top: 0;
@@ -142,11 +145,10 @@ h6 {
 }
 
 .profile {
-  width: 150px;
-  margin: 0 auto;
-  text-align: center;
-  align-items: center;
-  display: flex;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
   border-radius: 50%;
 }
 
@@ -207,18 +209,9 @@ h6 {
 
 #graphics {
   max-width: 100%;
+  min-width: 500px;
   max-height: 100%;
   margin: auto;
-}
-
-.icons {
-  display: flex;
-  width: 100%;
-  align-items: flex-start;
-  flex-direction: column;
-  padding-top: 170px;
-  padding-left: 150px;
-  position: absolute;
 }
 
 #topIcon {
@@ -324,10 +317,6 @@ input, textarea {
 }
 
 @media only screen and (max-width: 1160px) {
-  #face-pic {
-    padding: 0px;
-    display:flex
-  }
   #nolan-perry {
       flex-wrap: wrap;
       text-align: center;
@@ -433,6 +422,7 @@ input, textarea {
 
   h2 {
     text-align: center;
+    font-size:calc(35px + 3vw);
   }
 
   h3 {
@@ -477,7 +467,7 @@ input, textarea {
   }
 
   h5 {
-    font-size: 20px;
+    font-size:calc(15px + 1.5vw);
   }
 
 }
