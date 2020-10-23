@@ -5,80 +5,155 @@ body {
   overflow-x: hidden;
 }
 
+.square {
+  height: 5px;
+  width: 300px;
+  background-color: #FFBE72;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
+
+.topnav {
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  overflow: hidden;
+  padding-left: 250px;
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+
+.topnav a {
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  float: left;
+  color: #A7A7A7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  color: #FFBE72;
+}
+
+.topnav a.active {
+  color: #FFBE72;
+  
+}
+
+button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+  outline: inherit;
+  justify-content: center;
+  text-align: center;
+}
+
+
 html {
   width: 100%;
 }
 
 h1 {
-  font-family: interstate, sans-serif;
-  font-weight: 700;
+  font-family: poppins, sans-serif;
   font-style: normal;
+  font-weight: 600;
   font-size:calc(32px + 2vw);
-  color: #2B2E30;
+  color: #1C1C1C;
   line-height: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 0;
 }
 
 h3 {
-  font-family: interstate, sans-serif;
-  font-weight: 500;
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
   font-style: normal;
   font-size:calc(10px + 1vw);
-  color: #2B2E30;
+  color: #1C1C1C;
   padding-left: 10px;
   padding-bottom: 10px;
 }
 
 h2 {
-  font-family: interstate, sans-serif;
-  font-weight: 700;
+  font-family: poppins, sans-serif;
   font-style: normal;
-  font-size:calc(35px + 1vw);
-  color: #2B2E30;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
+  font-weight: 600;
+  font-size:calc(30px + 1vw);
+  color:#1C1C1C;
+  padding-top: 45px;
   margin-top: 0;
-  margin-bottom: 0;
 }
 
 h4 {
-  font-family: interstate, sans-serif;
-  font-weight: 500;
+  font-family: poppins, sans-serif;
   font-style: normal;
-  font-size:calc(15px + 1vw);
-  color: #80925A;
+  font-weight: 600;
+  font-size:calc(10px + 1vw);
+  color: #A7A7A7;
 }
 
 p {
-  font-family: interstate, sans-serif;
-  font-weight: 500;
+  font-family: poppins, sans-serif;
   font-style: normal;
+  font-weight: 400;
   font-size:calc(14px + .5vw);
-  color: #949494;
+  color: #A7A7A7;
   padding-left: 10px;
-  padding-right: 10px;
+  line-height: 38px;
+  margin: 0;
+}
+
+h5 {
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size:calc(14px + .5vw);
+  color: #A7A7A7;
+  margin: 10px;
+}
+
+h6 {
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size:calc(30px + 1vw);
+  color:#1C1C1C;
+  padding-top: 45px;
+  margin-top: 0;
+  line-height: 0px;
 }
 
 .name {
   padding-top: 100px;
 }
 
+#homepanels {
+  text-align: left;
+}
+
 .profile {
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  display: flex;
   border-radius: 50%;
-  width: 275px;
 }
 
 .photo {
   border-radius: 100px;
   padding: 50px;
   width: 425px;
-}
-
-#camera {
-  padding-left: 10px;
 }
 
 .mail {
@@ -88,10 +163,13 @@ p {
 }
 
 .button1, input[type=submit] {
-  background-color: #FBEFD6;
+  font-family: poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  background-color:#FFBE72;
   border: none;
-  color: #2B2E30;
-  padding: 18px 22px;
+  color:#ffffff;
+  padding: 15px 22px;
   text-align: center;
   margin: 10px;
   text-decoration: none;
@@ -100,9 +178,6 @@ p {
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.3s;
-  font-family: interstate, sans-serif;
-  font-weight: 500;
-  font-style: normal;
   border-radius: 50px;
   -webkit-appearance: none;
 }
@@ -126,17 +201,14 @@ p {
   box-shadow: 0 10px 10px -10px rgba(56, 56, 23, 0.5);
 }
 
-.bioContainer {
-  margin-left: calc(50px + 10vw);
-  margin-right: calc(50px + 10vw);
-}
-
 .leftImages, .rightImages {
   width: 49%;
 }
 
-#walking {
-  width: 400px;
+#graphics {
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
 }
 
 .icons {
@@ -156,7 +228,6 @@ p {
 #middleIcon {
   padding-bottom: 10px;
 }
-
 
 #topBox {
   width: 100%;
@@ -221,11 +292,30 @@ input, textarea {
   justify-content: right;
 }
 
-@media only screen and (max-width: 1800px) {
+@media only screen and (min-width: 3840px) {
+  p {
+    word-wrap: break-word;
+    width: 800px;
+  }
+}
+
+@media only screen and (min-width:1161px) {
   .icons {
     position: relative;
     padding-left: 30px;
     padding-top: 30px;
+  }
+
+  #h1center {
+    text-align: left;
+    width: 500px;
+    line-height: 80px;
+
+  }
+
+  p {
+    word-wrap: break-word;
+    width: 600px;
   }
 
   .name {
@@ -233,10 +323,10 @@ input, textarea {
   }
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1160px) {
   #face-pic {
     padding: 0px;
-    padding-top: 45px;
+    display:flex
   }
   #nolan-perry {
       flex-wrap: wrap;
@@ -256,7 +346,7 @@ input, textarea {
     margin-left: 20px;
     margin-right: 20px;
   }
-
+  
   #iconContainer {
     position: relative;
   }
@@ -279,8 +369,10 @@ input, textarea {
   }
 
   .profile {
-    width: 25%;
-    min-width: 175px;
+    width: 50%;
+    min-width: 75px;
+    max-width: 150px;
+    display: flex;
   }
 
   .icons {
@@ -338,13 +430,54 @@ input, textarea {
     font-family: Interstate;
     padding: 15px;
   }
+
+  h2 {
+    text-align: center;
+  }
+
   h3 {
     font-size: 20px;
+    text-align: center;
   }
   h4 {
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
   }
-  #collage {
-    padding-bottom: 40px;
+  p {
+    font-size: 20px;
+    text-align: center;
+    word-wrap: auto;
+    width: auto;
   }
+  .topnav {
+    padding-left: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+  }
+
+  #homepanels {
+    text-align: center;
+    align-items: center;
+  }
+
+  #contactP {
+    text-align: left;
+  }
+
+  #h1center {
+    text-align: center;
+    width: auto;
+    line-height: 50px;;
+  }
+
+  #break {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
 }
