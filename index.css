@@ -48,43 +48,19 @@ html {
   
 }
 
-button {
-  background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-  outline: inherit;
-  justify-content: center;
-  text-align: center;
-}
-
-
 html {
   width: 100%;
 }
 
 h1 {
   font-family: poppins, sans-serif;
-  font-style: normal;
   font-weight: 600;
+  font-style: normal;
   font-size:calc(32px + 2vw);
   color: #1C1C1C;
   line-height: 5px;
   padding-left: 10px;
   padding-right: 10px;
-}
-
-h3 {
-  font-family: poppins, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-style: normal;
-  font-size:calc(10px + 1vw);
-  color: #1C1C1C;
-  padding-left: 10px;
-  padding-bottom: 10px;
 }
 
 h2 {
@@ -125,21 +101,6 @@ h5 {
   margin: 10px;
 }
 
-h6 {
-  font-family: poppins, sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size:calc(30px + 1vw);
-  color:#1C1C1C;
-  padding-top: 45px;
-  margin-top: 0;
-  line-height: 0px;
-}
-
-.name {
-  padding-top: 100px;
-}
-
 #homepanels {
   text-align: left;
 }
@@ -156,12 +117,6 @@ h6 {
   border-radius: 100px;
   padding: 50px;
   width: 425px;
-}
-
-.mail {
-  width: 525px;
-  padding-top: 45px;
-  margin: 0 auto;
 }
 
 .button1, input[type=submit] {
@@ -209,17 +164,9 @@ h6 {
 
 #graphics {
   max-width: 100%;
-  min-width: 500px;
+  min-width: 400px;
   max-height: 100%;
   margin: auto;
-}
-
-#topIcon {
-  padding-bottom: 10px;
-}
-
-#middleIcon {
-  padding-bottom: 10px;
 }
 
 #topBox {
@@ -276,13 +223,8 @@ form {
 }
 
 input, textarea {
-  color: #80925A;
+  color: #FFBE72;
   font-size: 20px;
-}
-
-#homeButton {
-  margin-right: 240px;
-  justify-content: right;
 }
 
 @media only screen and (min-width: 3840px) {
@@ -293,12 +235,6 @@ input, textarea {
 }
 
 @media only screen and (min-width:1161px) {
-  .icons {
-    position: relative;
-    padding-left: 30px;
-    padding-top: 30px;
-  }
-
   #h1center {
     text-align: left;
     width: 500px;
@@ -311,16 +247,12 @@ input, textarea {
     width: 600px;
   }
 
-  .name {
-    padding: 30px;
+  #space {
+    padding-bottom: 100px;
   }
 }
 
 @media only screen and (max-width: 1160px) {
-  #nolan-perry {
-      flex-wrap: wrap;
-      text-align: center;
-  }
   #bio {
     flex-wrap: wrap;
     text-align: center;
@@ -336,20 +268,6 @@ input, textarea {
     margin-right: 20px;
   }
   
-  #iconContainer {
-    position: relative;
-  }
-
-  #walking {
-    width: 75%;
-    max-width: 400px;
-    padding-top: 20px;
-  }
-
-  .mail {
-    width: 375px;
-  }
-
   .photo {
     width: 60%;
     min-width: 140px;
@@ -362,27 +280,6 @@ input, textarea {
     min-width: 75px;
     max-width: 150px;
     display: flex;
-  }
-
-  .icons {
-    justify-content: center;
-    flex-direction: row;
-    padding-left: 0;
-    padding-top: 50px;
-  }
-
-  #topIcon {
-    padding-right: 10px;
-    padding-bottom: 0;
-  }
-
-  #middleIcon {
-    padding-right: 10px;
-    padding-bottom: 0;
-  }
-
-  #camera {
-    padding-left: 0;
   }
 
   #topBox {
@@ -401,11 +298,6 @@ input, textarea {
     width: 100%;
   }
 
-  #homeButton {
-    justify-content: center;
-    align-items: center;
-    margin-right: 0;
-  }
   #messageField {
     border: 3px solid #2B2E30;
     resize: none;
@@ -425,10 +317,6 @@ input, textarea {
     font-size:calc(35px + 3vw);
   }
 
-  h3 {
-    font-size: 20px;
-    text-align: center;
-  }
   h4 {
     font-size: 20px;
     text-align: center;
@@ -461,13 +349,12 @@ input, textarea {
     line-height: 50px;;
   }
 
-  #break {
-    padding-top: 100px;
-    padding-bottom: 100px;
-  }
-
   h5 {
     font-size:calc(15px + 1.5vw);
+  }
+
+  #break {
+    padding-top: 100px;
   }
 
 }
