@@ -343,7 +343,8 @@ input, textarea {
     font-size: 20px;
     text-align: center;
     word-wrap: auto;
-    width: auto;
+    width: 90%;
+    margin: 0 auto;
   }
   .topnav {
     padding-left: 0px;
