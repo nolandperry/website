@@ -67,7 +67,7 @@ h1 {
 }
 
 h2 {
-  font:18px 'Gilroy', sans-serif;
+  font:1px 'Gilroy', sans-serif;
   font-weight: 800;
   font-style: normal;
   font-size:calc(25px + 2vw);
@@ -240,7 +240,11 @@ input, textarea {
   color: #000000;
   font-size: 20px;
 }
-
+@media only screen and (max-width: 496px) {
+  h5 {
+    text-align: center;
+  }
+}
 
 @media only screen and (min-width:1161px) {
   #h1center {
@@ -370,7 +374,6 @@ input, textarea {
 
   h5 {
     font-size:calc(15px + 1.5vw);
-    text-align: center;
     padding-bottom: 20px;
   }
 
@@ -420,7 +423,7 @@ input, textarea {
   text-align: center;
   justify-content: center;
   padding-top: 35px;
-  padding-bottom: 35px;
+  padding-bottom: 60px;
 }
 
 .paddingBottom {
